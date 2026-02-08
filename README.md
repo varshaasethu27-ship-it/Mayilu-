@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Be My Valentine 💖</title>
+  <title>For Mayilu 💖</title>
   <style>
     body {
       margin: 0;
       height: 100vh;
-      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -15,42 +15,42 @@
     }
     .card {
       background: white;
-      padding: 40px;
-      border-radius: 20px;
+      padding: 45px;
+      border-radius: 25px;
       text-align: center;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.2);
-      animation: fadeIn 1.5s ease;
+      box-shadow: 0 25px 50px rgba(0,0,0,0.25);
+      animation: fadeIn 1.6s ease;
     }
     h1 {
       color: #e91e63;
       margin-bottom: 10px;
+      font-size: 30px;
     }
     p {
       color: #555;
       font-size: 18px;
-      margin-bottom: 30px;
+      margin-bottom: 25px;
     }
     button {
-      padding: 12px 25px;
+      padding: 14px 32px;
       border: none;
-      border-radius: 30px;
-      font-size: 16px;
+      border-radius: 35px;
+      font-size: 17px;
       cursor: pointer;
-      margin: 10px;
-      transition: transform 0.2s;
-    }
-    .yes {
+      margin-top: 15px;
       background: #e91e63;
       color: white;
+      transition: transform 0.25s;
     }
-    .yes:hover {
-      transform: scale(1.1);
+    button:hover {
+      transform: scale(1.15);
     }
     .love {
-      margin-top: 20px;
+      margin-top: 25px;
       font-size: 22px;
       display: none;
       color: #e91e63;
+      animation: fadeIn 1s ease;
     }
     @keyframes fadeIn {
       from { opacity: 0; transform: scale(0.9); }
@@ -60,15 +60,15 @@
 </head>
 <body>
   <div class="card">
-    <h1>Hey Love 💕</h1>
-    <p>Every moment with you feels special…</p>
+    <h1>Mayilu 💕</h1>
+    <p>You make my ordinary days feel magical ✨</p>
     <h1>Will you be my Valentine? 🌹</h1>
 
-    <button class="yes" onclick="showLove()">YES 💖</button>
+    <button onclick="showLove()">YES 💖</button>
 
     <div class="love" id="loveMsg">
-      Yay!!! 💕💋  
-      Happy Valentine’s Day, my love 💞
+      Yay!!! 💋💞  
+      Happy Valentine’s Day, my love ❤️
     </div>
   </div>
 
